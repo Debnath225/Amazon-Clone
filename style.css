@@ -1,0 +1,318 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 55px;
+    background-color: black;
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+
+}
+#logo{
+    height: 40px;
+    width: 120px;
+    margin-top: 4px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 28px;
+    display: flex;
+    position: static;
+    float: none;
+    filter: blur(.2px);
+    cursor: pointer;
+}
+.user-addrace{ 
+     padding-left: 4px;
+    padding-right: 4px;
+    margin: 4px;
+height: 44px;
+width: 155px;
+position: relative;
+}
+.user-addrace:hover{
+border: 1px solid white;
+border-radius: 1px
+}
+.location{
+    cursor: pointer;
+    text-wrap: nowrap;
+    display: inline;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+}
+#locationf{
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+.hover:hover{
+border: 1px solid white;
+border-radius: 1px;
+}
+#search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    float: none;
+    height: 60px;
+    width: 682px;
+    margin-left:8px;
+}
+.nav-input {
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    line-height: 10px;
+    padding: 7px 10px 10px 0;
+    margin: 0;
+    border: 0;
+    height: 32px;
+    font-family: inherit;
+    font-size: 15px;
+    background: 0 0;
+    color: #111;
+    outline: 0;
+    box-shadow: none;
+    text-indent: 8px;
+    direction: ltr;
+}
+#twotabsearchtextbox{
+    padding-left: -53px;
+    height:32px ;
+    width: 800px;
+    border-radius: 3px;
+    margin-left: 0px;
+    outline: none;
+}
+#searchDropdownBox{
+    outline: none;
+    height: 36px;
+    width: 42px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    background-color: #e2e2e2;
+    border-top-left-radius:12%;
+    border-bottom-left-radius: 12%;
+    border-right: none;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+    font-family: inherit;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.567);
+}
+#searchDropdownBox:hover{
+    -webkit-text-fill-color: black;
+    background-color: #f5f2f2e3;
+}
+.nav-search-field {
+    border: none;
+    border-top: 1px solid transparent;
+    outline: none;
+}
+select{
+    width: fit-content;
+}
+#searchbtn{
+    cursor: pointer;
+    border-top: 1px solid rgba(255, 166, 0, 0.725);
+    border-bottom: 1px solid orange;
+    outline: none;
+    padding-left: 53px;
+    height:38px;
+    width: 53px;
+    padding: 4px;
+    background-color: orange;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius:12% ;
+    -webkit-text-fill-color:rgba(0, 0, 0, 0.567) ;
+}
+#searchbtn:hover{
+    
+    -webkit-text-fill-color: black;
+    background-color: orange;
+
+}
+#droparrow{
+    /*height: 30px;
+    width: 30px;*/
+    margin-left: 35px;
+    margin-top: 30px;
+    border:10px solid transparent ;
+    border-top-color:#fdf6f6dd;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+#droparrow:hover{
+
+
+}
+.changelang{
+    margin-left: 10px;
+    height: 45px;
+    width: 55px;
+    border-radius: 2px;
+}
+.changelang:hover{
+border: 1px solid white;
+border-radius: 1px;
+}
+#lang{
+    margin-left: 34px;
+    filter: opacity(0);
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 7px;
+    outline: none;
+    height: 0px;
+   width: 20px;
+    background-color: #fdf6f6dd;
+}
+#lang:hover{
+    margin-left: 0px;
+    height: fit-content;
+    width: 200px;
+    filter: opacity(100%);
+}
+.listlang{
+    
+}
+.listlang:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.inputbox[type="radio"]:hover{
+    background-color: brown;
+}
+.itm{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+.itm{
+color: brown;
+text-decoration: underline;
+}
+#con{
+    margin-top:60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    background-color: #f5f2f2e3;
+    border-radius: 10px;
+}
+.box:hover{
+    filter:opacity(0.3)
+}
+.box:focus{
+    border:2px dotted black;
+}
+#psliderCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+#sliderCon{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    height: 64vh;
+    width: 1430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(224, 211, 211,0.9);
+    border-radius: 20px;
+    background-color: #f5f2f2e3;
+    overflow-y: hidden;
+}
+.slideshow{
+    border-radius: 18px;
+    aspect-ratio: 2/9;
+    height: 52vh;
+    width:1000px;
+    background-size:cover;
+    animation: slideimg 8s alternate infinite;
+}
+@keyframes immage{
+    0%{
+    }
+    20%{
+    }
+    40%{
+    }
+    60%{
+    }
+    80%{
+    }
+    100%{
+    }
+
+}
+i{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+p{
+    display: inline-flex;
+    background-color: #fdf6f6a4;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: arial;
+    filter: drop-shadow(2px 4px 4px black),
+                         opacity(0.5);
+     
+
+}
+p:hover{
+    filter: drop-shadow(2px 4px 4px black),
+                         opacity(1);
+    scale: 1.1;
+}
+.Data{
+    background-color: rgba(246, 226, 202, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+input[type="button"]{
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgba(237, 241, 7, 0.9);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    font-family: arial;
+    filter: drop-shadow(2px 4px 4px black),
+                         opacity(0.8);
+}
+input[type="button"]:hover{
+    filter: contrast(1.5);
+}
