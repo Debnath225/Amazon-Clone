@@ -84,6 +84,7 @@ border-radius: 1px;
     direction: ltr;
 }
 #twotabsearchtextbox{
+    color:white;
     padding-left: -53px;
     height:32px ;
     width: 800px;
@@ -315,4 +316,29 @@ input[type="button"]{
 }
 input[type="button"]:hover{
     filter: contrast(1.5);
+}
+.psubnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 28px;
+    width: 100%;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: rgba(1, 9, 31, 0.815);
+    margin: 0px 0 6px 0;
+    padding: 8px 9px;
+}
+.subnav{
+    padding: 7px;
+    font-family: 'arial';
+  font-weight: 300;
+color: white;
+}
+.subnav:hover{
+    border: 1px solid white;
+border-radius: 1px;
 }
