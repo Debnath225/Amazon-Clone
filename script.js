@@ -1,3 +1,12 @@
+function onFunction() {
+  alert ("Your browser is working online.");
+}
+
+function offFunction() {
+  alert ("Your browser is working offline.");
+}
+
+
 
 let bord =  document.querySelector("#searchDropdownBox").addEventListener("click", () => {
     searchDropdownBox.style.border="3px solid orange";
