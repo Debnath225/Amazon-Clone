@@ -3,7 +3,7 @@ function onFunction() {
 }
 
 function offFunction() {
-  alert ("Your browser is no working (offline) Check your internet connection.");
+  alert ("Your browser is not working (offline) Check your internet connection.");
 }
 
 
