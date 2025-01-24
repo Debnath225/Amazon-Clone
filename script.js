@@ -1,9 +1,9 @@
 function onFunction() {
-  alert ("Your browser is working online.");
+  alert("Your browser is working online.");
 }
 
 function offFunction() {
-  alert ("Your browser is not working (offline) Check your internet connection.");
+  alert("Your browser is  not working offline.");
 }
 
 
