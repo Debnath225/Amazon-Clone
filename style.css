@@ -19,7 +19,7 @@ padding: 0px;
     border-bottom: 1px solid white;
     position: fixed;
      overflow-y: hidden;
-    overflow: scroll;
+    overflow-x: scroll;
     scroll-behavior: smooth;
     scrollbar-width:none;
 
@@ -384,7 +384,7 @@ input[type="button"]:focus-within{
 border:0.8px solid rgba(150, 150, 15, 0.7);
 }
 .psubnav{
-    overflow: scroll;
+    overflow-x: scroll;
      overflow-y: hidden;
     scroll-behavior: smooth;
     scrollbar-width: none;
