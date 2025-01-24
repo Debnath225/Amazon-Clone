@@ -18,6 +18,9 @@ padding: 0px;
     background-color: black;
     border-bottom: 1px solid white;
     position: fixed;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width:none;
 
 }
 #logo{
@@ -380,6 +383,9 @@ input[type="button"]:focus-within{
 border:0.8px solid rgba(150, 150, 15, 0.7);
 }
 .psubnav{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
     position: fixed;
     display: flex;
     flex-direction: row;
