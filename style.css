@@ -18,6 +18,7 @@ padding: 0px;
     background-color: black;
     border-bottom: 1px solid white;
     position: fixed;
+     overflow-y: hidden;
     overflow: scroll;
     scroll-behavior: smooth;
     scrollbar-width:none;
@@ -384,6 +385,7 @@ border:0.8px solid rgba(150, 150, 15, 0.7);
 }
 .psubnav{
     overflow: scroll;
+     overflow-y: hidden;
     scroll-behavior: smooth;
     scrollbar-width: none;
     position: fixed;
