@@ -259,6 +259,9 @@ color: brown;
 text-decoration: underline;
 }
 #con{
+    display:flex;
+    justify-content:center;
+    align-item:center;
     margin-top:40px;
 }
 .box{
