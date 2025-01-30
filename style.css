@@ -302,7 +302,7 @@ text-decoration: underline;
     background-color: #f5f2f2e3;
     overflow-y: hidden;
 }
-.slidecon:hover .slideshow{
+.slidecon:hover img{
 animation-play-state: paused !important;
 
 }
